@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css.file/inex.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#" style="font-size: 40px;">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+</header>
+
+<main>
+    <section data-aos="fade-up" class="home" id="home">
+        <div class="home-content">
+            <div class="profile-pic home-img">
+                <img src="./images.file/IMAGE 2024-10-28 18_27_02 1.svg" alt="Muha Junior">
+            </div>
+            <h2>Hi! I'm Muha Junior 👋</h2>
+            <p>
+                I am a third-year IT student at Zhambyl Innovation Higher College (JIHC) in Taraz.
+            </p>
+            <div class="buttons">
+                <button  class="btn"><a href="#contact">Contact Me</a></button>
+                <button id="downloadBtn" class="btn">Download CV</button>  
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/?locale=ru_RU"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <sction class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div data-aos="fade-left" class="about-col-1 about-img">
+                    <img src="./images.file/2024-10-23 09.15.38 1.svg" alt="">
+                </div>
+                <div data-aos="fade-right" class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm a passionate web developer and designer, currently studying.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+    
+                    <div class="tab-contents active-tab" id="skills">
+                        <div class="skills-grid">
+                            <div class="skill-chip"><span>JavaScript</span></div>
+                            <div class="skill-chip"><span>HTML</span></div>
+                            <div class="skill-chip"><span>CSS</span></div>
+                            <div class="skill-chip"><span>Dart</span></div>
+                            <div class="skill-chip"><span>Flutter</span></div>
+                            <div class="skill-chip"><span>Figma</span></div>
+                            <div class="skill-chip"><span>Photoshop</span></div>
+                            <div class="skill-chip"><span>Trello</span></div>
+                            <div class="skill-chip"><span>Jira</span></div>
+                            <div class="skill-chip"><span>Github</span></div>
+                            <div class="skill-chip"><span>English</span></div>
+                            <div class="skill-chip"><span>Turkish</span></div>
+                            <div class="skill-chip"><span>Kazakh-Russian</span></div>
+                        </div>
+                    </div>
+    
+                    <div class="tab-contents" id="experience">
+                        <div class="experience-item">
+                            <div class="experience-icon">👨‍💻</div>
+                            <div class="experience-details">
+                                <h3>Frontend Developer</h3>
+                                <p>Developed responsive web interfaces using HTML, CSS, and JavaScript.</p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="experience-icon">🖥️</div>
+                            <div class="experience-details">
+                                <h3>Backend Developer</h3>
+                                <p>Built server-side applications and APIs using Node.js and Express.</p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="experience-icon">🎨</div>
+                            <div class="experience-details">
+                                <h3>UI/UX Designer</h3>
+                                <p>Designed user-friendly interfaces and optimized user experience for web and mobile apps.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <div class="education-item">
+                            <div class="education-icon">🏫</div>
+                            <div class="education-details">
+                                <h3>Jambyl Innovation High College</h3>
+                                <p>Studying Web Development and UI/UX Design</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </sction>
+    
+    
+
+    <section data-aos="fade-up" class="portfolio " id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">      
+            <div class="portfolio-box">
+                <img src="./images.file/Снимок экрана 2024-10-28 в 09.29.07.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Mobile Design</h4>
+        
+                    <a href="https://github.com/muhammedzhann/Minimal_Music_Player-"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./images.file/Снимок экрана 2024-10-28 в 09.33.34.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Mobile Design</h4>                   
+                    <a href="https://github.com/muhammedzhann/flutter_breakfast_App"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./images.file/Снимок экрана 2024-10-28 в 09.54.23.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>UI/UX Design</h4>
+                    <a href="https://www.figma.com/design/Murqk2sShFB52crkvGdwcA/Untitled?node-id=0-1&t=xZZkkaojmEI5qrks-1"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+                <img src="./images.file/Снимок экрана 2024-10-28 в 09.56.27.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>UI/UX Design</h4>
+
+                    <a href="https://www.figma.com/design/OuCLiqb42dLnd9FU107wWZ/Untitled?node-id=0-1&t=RuHpJbvKsgpET3Mt-1"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+                <img src="./images.file/Снимок экрана 2024-10-28 в 10.02.44.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>                  
+                    <a href="https://chimerical-sfogliatella-b6ac67.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+                <img src="./images.file/Снимок экрана 2024-10-28 в 10.07.30.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                
+                    <a href="https://guileless-conkies-8b1b54.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+
+    <section data-aos="fade-up" class="contact " id="contact">
+        <h2 class="heading">Contact<span>Me</span></h2>
+        <form method="POST" id="form">            
+            <input type="hidden" name="access_key" value="faee45ef-1852-4d4e-8983-3fed8ab61628">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="text" name="mobile" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">
+                <textarea name="message" cols="20" rows="10" placeholder="Your Message" required></textarea>
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            </div>
+            
+            <div class="buttons">
+                <button class="btn" type="submit">Send Message</button>
+            </div>
+            
+            <div id="result"></div>
+        </form>
+    
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by @heresthecode | All Rights Reserved.</p>
+    </div>
+    <div class="footer-icons">
+        <a href="#home" class="scroll-top"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+</footer>
+
+
+    
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="./js.file/script.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script type="module" src="./js.file/script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init( {
+                offset: 200, 
+                duration:800
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</script>
+</body>
+</html>
